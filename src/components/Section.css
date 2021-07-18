@@ -1,0 +1,35 @@
+.row_img {
+  padding: 3rem;
+  transition: 0.5s;
+}
+.row_img:hover {
+  transform: scale(1.1);
+}
+.row_img img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform ease 0.3s, -webkit-transform ease 0.3s,
+    -o-transform ease 0.3s;
+}
+.row_img a {
+  -webkit-box-shadow: 0 0 10px #c0c6c9;
+  box-shadow: 0 0 10px #c0c6c9;
+  border-radius: 20px;
+  display: block;
+  position: relative;
+  -moz-transition: -moz-transform 200ms ease, background-color 200ms ease,
+    box-shadow 200ms ease;
+  transition: transform 200ms ease, background-color 200ms ease,
+    box-shadow 200ms ease;
+}
+.row_img a:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0px 9px 22px #aca3a3;
+}
+.a_img {
+  overflow: hidden;
+}
+
+.row_img a:hover img {
+  transform: scale(1.2);
+}

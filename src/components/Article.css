@@ -1,0 +1,95 @@
+.article {
+  position: relative;
+  top: 80px;
+}
+.container_img {
+  height: 509px;
+}
+.container_img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container_descrip {
+  position: absolute;
+  top: 0;
+  right: 10em;
+  margin-top: 52px;
+  width: 400px;
+  color: white;
+}
+.__des {
+  width: 100%;
+}
+.descripcion .__des h2 {
+  font-size: 4.052rem;
+}
+.__des p {
+  font-size: 1.052rem;
+  color: black;
+}
+
+.button-5 {
+  text-align: center;
+  width: 127px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background: red;
+}
+.button-5 a {
+  font-size: 1.452rem;
+  font-weight: bold;
+  position: relative;
+  transition: all 0.45s ease-Out;
+}
+.translate {
+  transform: rotate(63deg);
+  width: 100%;
+  height: 195%;
+  left: -186px;
+  top: -27px;
+  background: white;
+  position: absolute;
+  transition: all 0.4s ease-Out;
+}
+.button-5:hover .translate {
+  left: 0;
+}
+.button-5:hover a {
+  color: red;
+  font-weight: bold;
+}
+
+.img_Fluid {
+  background-color: rgba(30, 29, 30);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img_row {
+  display: grid;
+  grid-column-gap: 94px;
+  grid-template-columns: 350px 350px 350px;
+}
+.fluid_h1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.img_Fluid .fluid_h1 h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.content_main {
+  position: realtive;
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+  top: 100px;
+  z-index: 99999999;
+}
